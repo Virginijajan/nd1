@@ -18,11 +18,7 @@ namespace ConsoleNd1
             string str = Console.ReadLine();
 
             Console.WriteLine($"Jus parasete: {str}");
-
-            
-           
-
-              //  str = str.Replace(" ", "");
+                str = str.Replace(" ", "");
 
 
                 char[] delimiterChars = { '/', '+', '*', '-'};
